@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Зеленая Планета</title>
+</head>
+<body>
+    <div class="page">
+        <div class="hearder">
+            <header>
+                <div class="container">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="assets/logo.png" alt="" width="500px">
+                        </a>
+                    </div>
+                    <div class="navigation">
+                        <nav>
+                            <div class="topnav" id="myTopnav">
+                                <ul>
+                                    <li>
+                                        <a href="index.html">Главная</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Меню</a>
+                                        <ul class="dropdown">
+                                            <li>
+                                                <a href="index.html #projects_main">Проекты</a>
+                                            </li>
+                                            <li>
+                                                <a href="index.html #volunteer_main ">Волонтерство</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="index.html #news">События</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">О нас</a>
+                                    </li>
+                                    <li class="iconn">
+                                        <a href="#" id="menu" class="icon">&#9776</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <div class="content">
+            <main>
+                <div class="donate_main">
+                    <div class="donate_container">
+                        <div class="donate">
+                            <h2>
+                                Предложить инициативу
+                            </h2>
+                            <div class="form_block">
+                                <form action="iniciation.php" method="post" class="donation-form">
+                                    <input type="text" id="name" name="name" placeholder="Имя отправителя" required>
+                                    <input type="text" id="email" name="email" placeholder="Почта отправителя" required>
+                                    <input type="text" id="phone" name="phone" placeholder="Телефон" required>
+                                    <textarea name="comment" cols="39" rows="5" id="comment" placeholder="Опишите вашу инициативу" ></textarea>
+                                    <button type="submit" class="donatenow">Отправить</button>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <div class="footer_container" id="about_main">
+                    <div class="footer-container">
+                        <div class="footer-contact">
+                            <h3>Наши контакты</h3>
+                            <p>Email: info@greenplanet.org</p>
+                            <p>Phone: (123) 456-7890</p>
+                        </div>
+                    </div>
+                </div>
+        </footer>
+        </div>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>
